@@ -49,6 +49,7 @@ Copied 584/584 100.00%
 Done! Total time elapsed: 0:08:46.321000
 ```
 The final folder structure will look like this:
+
 ![Folders](example_folders.png?raw=true "Folders")
 ![Files](example_files.png?raw=true "Files")
 
