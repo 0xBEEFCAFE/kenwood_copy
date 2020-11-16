@@ -12,11 +12,12 @@ Per the [specifications](https://www.kenwood.com/cs/ce/audiofile/index.php?model
 | Maximum number of files (per device) | 65025 |
 | Maximum number of files per playlist | 7000 |
 
-Usage is simple, just set the source_dir, target_dir, and music_extensions as desired:
+Usage is simple, just these variables as required:
 ```
 source_dir = "SOURCE_DIR"
 target_dir = "TARGET_DIR"
 music_extensions = [".flac"] # List of allowed extensions
+del_exclude_dirs = ["Video"] # List of directories in the TARGET folder to exclude from deletion
 ```
 Then run with:
 ```
