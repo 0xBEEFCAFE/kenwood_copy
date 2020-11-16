@@ -1,5 +1,5 @@
 # kenwood_copy
-This script will copy music from a source directory to a USB drive using a folder structure compatible with a Kedwood DNX691HD car stereo (other models will likely work too). This is helpful for large music libraries that would otherwise break compatibility due to the number of folders (especially) and files.
+This script will copy music from a source directory to a USB drive using a folder structure compatible with a Kenwood DNX691HD car stereo (other models will likely work too). This is helpful for large music libraries that would otherwise break compatibility due to the number of folders (especially) and files.
 
 Per the [specifications](https://www.kenwood.com/cs/ce/audiofile/index.php?model=DNX691HD&lang=english):
 
