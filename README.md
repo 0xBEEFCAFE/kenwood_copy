@@ -18,6 +18,10 @@ source_dir = "SOURCE_DIR"
 target_dir = "TARGET_DIR"
 music_extensions = [".flac"] # List of allowed extensions
 ```
+Then run with:
+```
+python kenwood.py
+```
 All data in the target directory will be deleted and everything from the source directory with matching extensions will be copied over.
 
 Final folder structure will look like this:
