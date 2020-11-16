@@ -27,8 +27,27 @@ Then run with:
 ```
 python kenwood.py
 ```
-All data in the target directory except exluded folders will be deleted, and everything from the source with matching extensions will be copied over.
+WARNING: All data in the target directory except exluded folders will be deleted, and everything from the source with matching extensions will be copied over.
+```
+------------- Kenwood Music File Copy Script -------------
 
+Source Directory is: Z:/Music
+Target Directory is: U:/
+
+Please wait while the source directory is scanned for files...Done (584 found)
+
+This will delete all data from the target directory (except excluded folders).
+Are you sure you want to proceed? (Y/N):
+Deleting all data from the target directory...Done
+Copied 1/584 0.17%
+        from: Z:/Music/Artist1/Album/01 - Song.flac
+        to:   U:/1/01 - Song.flac
+...
+Copied 584/584 100.00%
+        from: Z:/Music/Artist7/Album/15 - Song.flac
+        to:   U:/3/15 - Song.flac
+Done! Total time elapsed: 0:08:46.321000
+```
 The final folder structure will look like this:
 
 While it's not good for manually browsing files, it doesn't matter because the Kenwood unit will read the tags from the files and organize using it's own UI.
