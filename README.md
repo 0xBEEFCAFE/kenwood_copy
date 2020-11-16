@@ -49,6 +49,7 @@ Copied 584/584 100.00%
 Done! Total time elapsed: 0:08:46.321000
 ```
 The final folder structure will look like this:
-!(example_folders.png?raw=true "Title")
+![Folders](example_folders.png?raw=true "Folders")
+![Files](example_files.png?raw=true "Files")
 
 While it's not good for manually browsing files, it doesn't matter because the Kenwood unit will read the tags from the files and organize using it's own UI.
