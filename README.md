@@ -19,3 +19,7 @@ target_dir = "TARGET_DIR"
 music_extensions = [".flac"] # List of allowed extensions
 ```
 All data in the target directory will be deleted and everything from the source directory with matching extensions will be copied over.
+
+Final folder structure will look like this:
+
+Not good for manually browsing, but ok for the stereo since it reads the ID3 tags and organizes the music by itself.
