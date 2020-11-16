@@ -4,7 +4,7 @@ This script will copy music from a source directory to a USB drive using a folde
 Per the [specifications](https://www.kenwood.com/cs/ce/audiofile/index.php?model=DNX691HD&lang=english):
 
 | Limitation of structure for files and folders| USB |
-| ----------- | ----------- |
+| :--- | ---: |
 | <b>Type</b> | <b>Limit</b> |
 | Maximum number of folder layers | 8 |
 | Maximum number of folders (per device) | 255 |
