@@ -9,8 +9,8 @@ import shutil
 import sys
 import time
 
-source_dir = "/home/kyle/Music"
-target_dir = "/media/kyle/WD500GB"
+source_dir = "/home/user/Music"
+target_dir = "/media/user/WD500GB"
 music_extensions = [".flac"] # List of allowed extensions
 del_exclude_dirs = ["Video"] # List of directories in the TARGET folder to exclude from deletion
 
